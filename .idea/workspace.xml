@@ -7,13 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/forward/ForwordDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/forward/ForwordDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/redrict/RedrictDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/redrict/RedrictDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/SeveletContext/ContextDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/download/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/1.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/imgDownload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaWebLogin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaWebLogin_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWebLogin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebLogin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/img/backgroundImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/img/backgroundImg.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -47,23 +51,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.17875" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\lib" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\img" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\img" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\dao" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src" />
     </key>
   </component>
@@ -216,8 +221,18 @@
       <workItem from="1584062925145" duration="474000" />
       <workItem from="1584063554579" duration="1566000" />
       <workItem from="1584065150052" duration="6026000" />
-      <workItem from="1584106086747" duration="3052000" />
+      <workItem from="1584106086747" duration="3237000" />
+      <workItem from="1584152297568" duration="6977000" />
+      <workItem from="1584167275437" duration="1200000" />
     </task>
+    <task id="LOCAL-00001" summary="code">
+      <created>1584109233442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584109233442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,5 +250,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code" />
+    <option name="LAST_COMMIT_MESSAGE" value="code" />
   </component>
 </project>
