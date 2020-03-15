@@ -22,6 +22,18 @@
   </style>
 </head>
 <body>
+<%
+  String checkImgCodeError = (String) session.getAttribute("checkImgCodeError");
+  if("true".equals(checkImgCodeError)){
+    out.print("<script>alert('验证码错误了!')</script>");
+    session.removeAttribute("checkImgCodeError");
+  }
+  String checkPasswordError = (String) session.getAttribute("checkPasswordError");
+  if("true".equals(checkPasswordError)){
+    out.print("<script>alert('用户名或密码错误!')</script>");
+    session.removeAttribute("checkPasswordError");
+  }
+%>
 <form action="/login/login" method="post">
     <table>
       <tr>

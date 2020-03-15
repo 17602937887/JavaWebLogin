@@ -7,23 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Session/SessionDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Session/SessionDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/checkImgCode/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/dao/UpdateLastTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/loginSuccess.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Servlet/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Servlet/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/backgroundImg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/login/login.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login/login.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/Servlet/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/Servlet/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Demo/Cookie/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Cookie/Demo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/Demo/Servlet/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Servlet/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Demo/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/backgroundImg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -234,7 +222,7 @@
       <workItem from="1584152297568" duration="6977000" />
       <workItem from="1584167275437" duration="1892000" />
       <workItem from="1584237712312" duration="10704000" />
-      <workItem from="1584270641555" duration="6892000" />
+      <workItem from="1584270641555" duration="8485000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -257,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584247346200</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code">
+      <created>1584279403793</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584279403793</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

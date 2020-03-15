@@ -17,23 +17,35 @@ import java.util.Map;
 @WebServlet("/login")
 public class login extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Map<String, String[]> map = request.getParameterMap();
-        User user = new User();
-        try {
-            BeanUtils.populate(user, map);
-        } catch (IllegalAccessException | InvocationTargetException e) {
-            e.printStackTrace();
-            user = null;
-        }
-        user = UserDao.login(user);
-        // 登陆失败
-        if(user == null){
+        HttpSession session = request.getSession();
+        String checkImgCode = (String) session.getAttribute("checkImgCode");
+
+        // 验证码正确才执行后续代码
+        if(checkImgCode == null || !checkImgCode.equalsIgnoreCase(request.getParameter("checkImgCode"))){
+            session.setAttribute("checkImgCodeError", "true");
+            session.removeAttribute("checkImgCode");
             response.sendRedirect(request.getContextPath() + "/index.jsp");
-        } else {
-            HttpSession session = request.getSession();
-            session.setAttribute("user", user);
-            session.setAttribute("checkLogin", "success");
-            response.sendRedirect(request.getContextPath() + "/loginSuccess.jsp");
+        } else { // 验证码正确 验证密码
+            session.removeAttribute("checkImgCode");
+            Map<String, String[]> map = request.getParameterMap();
+            User user = new User();
+            try {
+                BeanUtils.populate(user, map);
+            } catch (IllegalAccessException | InvocationTargetException e) {
+                e.printStackTrace();
+                user = null;
+            }
+            user = UserDao.login(user);
+            // 登陆失败
+            if(user == null){
+                session.setAttribute("checkPasswordError", "true");
+                response.sendRedirect(request.getContextPath() + "/index.jsp");
+            } else {
+                session = request.getSession();
+                session.setAttribute("user", user);
+                session.setAttribute("checkLogin", "success");
+                response.sendRedirect(request.getContextPath() + "/loginSuccess.jsp");
+            }
         }
     }
 
