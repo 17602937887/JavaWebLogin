@@ -1,10 +1,13 @@
 package cn.Demo.Test;
 
-import java.util.Date;
+import java.util.Random;
 
 public class Demo {
     public static void main(String[] args) {
-        Date date = new Date();
-        System.out.println(date.toString());
+        Random random = new Random();
+        int[] a = null;
+        for(int it : a){
+            System.out.println(it);
+        }
     }
 }
