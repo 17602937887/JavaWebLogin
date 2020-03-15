@@ -12,22 +12,19 @@ public class User {
     private String gender;
     private String name;
     private Date join_date;
+    private Date lastTime;
 
     public User() {
     }
 
-    public User(String user, String password) {
-        this.user = user;
-        this.password = password;
-    }
-
-    public User(Integer id, String user, String password, String gender, String name, Date join_date) {
+    public User(Integer id, String user, String password, String gender, String name, Date join_date, Date lastTime) {
         this.id = id;
         this.user = user;
         this.password = password;
         this.gender = gender;
         this.name = name;
         this.join_date = join_date;
+        this.lastTime = lastTime;
     }
 
     public Integer getId() {
@@ -78,6 +75,14 @@ public class User {
         this.join_date = join_date;
     }
 
+    public Date getLastTime() {
+        return lastTime;
+    }
+
+    public void setLastTime(Date lastTime) {
+        this.lastTime = lastTime;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -87,6 +92,7 @@ public class User {
                 ", gender='" + gender + '\'' +
                 ", name='" + name + '\'' +
                 ", join_date=" + join_date +
+                ", lastTime=" + lastTime +
                 '}';
     }
 }

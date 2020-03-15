@@ -1,4 +1,7 @@
-<%--
+<%@ page import="java.net.URLDecoder" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.util.Date" %>
+<%@ page import="java.net.URLEncoder" %><%--
   Created by IntelliJ IDEA.
   User: Hang_ccccc
   Date: 2020/3/12
@@ -9,6 +12,14 @@
 <html>
 <head>
     <title>登陆页面</title>
+  <style>
+    tr{
+      height: 40px;
+    }
+    td{
+      width: 70px;
+    }
+  </style>
 </head>
 <body>
 <form action="/login/login" method="post">
@@ -27,7 +38,20 @@
         </td>
         <td>
           <input type="password" name="password" id="inputPassword" placeholder="请输入密码">
+        </td>
+        <td>
           <input type="button" value="显示密码" id="button">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <font>验证码:</font>
+        </td>
+        <td>
+          <input type="text" name="checkImgCode">
+        </td>
+        <td>
+          <img src="/login/checkCodeServlet" id="checkImgCode">
         </td>
       </tr>
       <tr>
@@ -52,6 +76,10 @@
             document.getElementById("button").setAttribute("value", "隐藏密码");
         }
         flag = !flag;
+    }
+    var checkImgCode = document.getElementById("checkImgCode");
+    checkImgCode.onclick = function () {
+      checkImgCode.setAttribute("src", "/login/checkCodeServlet?time=" + new Date().getTime());
     }
 </script>
 </body>

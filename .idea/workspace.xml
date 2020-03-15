@@ -7,13 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Cookie/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Cookie/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Cookie/LoginTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Session/SessionDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Session/SessionDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/checkImgCode/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/dao/UpdateLastTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/loginSuccess.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Test/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Test/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/Test/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/Test/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Demo/Test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Test/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Servlet/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Servlet/login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/backgroundImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login/login.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login/login.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/Servlet/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/Servlet/login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaWebLogin/cn/Demo/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/Demo/Cookie/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Cookie/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/Demo/Servlet/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Servlet/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/Demo/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/backgroundImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="jsf" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/Demo/Cookie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/Demo/checkImgCode" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\checkImgCode" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\Cookie" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\img" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\img" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,6 +120,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -221,7 +233,8 @@
       <workItem from="1584106086747" duration="3237000" />
       <workItem from="1584152297568" duration="6977000" />
       <workItem from="1584167275437" duration="1892000" />
-      <workItem from="1584237712312" duration="8872000" />
+      <workItem from="1584237712312" duration="10704000" />
+      <workItem from="1584270641555" duration="6892000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -237,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584197942347</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="code">
+      <created>1584247346200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584247346200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,5 +279,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code" />
     <option name="LAST_COMMIT_MESSAGE" value="code" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaWebLogin$Tomcat_8_5_49.ic" NAME="Tomcat 8.5.49 Coverage Results" MODIFIED="1584270944623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

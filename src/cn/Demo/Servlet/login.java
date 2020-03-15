@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
@@ -16,10 +17,6 @@ import java.util.Map;
 @WebServlet("/login")
 public class login extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        String inUser = request.getParameter("user");
-//        String inPassword = request.getParameter("password");
-//        User user = UserDao.login(new User(inUser, inPassword));
-//        System.out.println("来到了login, user = " + inUser + ", password = " + inPassword + "  user = " + user);
         Map<String, String[]> map = request.getParameterMap();
         User user = new User();
         try {
@@ -28,14 +25,15 @@ public class login extends HttpServlet {
             e.printStackTrace();
             user = null;
         }
-        System.out.println(user);
         user = UserDao.login(user);
         // 登陆失败
         if(user == null){
             response.sendRedirect(request.getContextPath() + "/index.jsp");
         } else {
-            request.setAttribute("user", user);
-            request.getRequestDispatcher("/success").forward(request, response);
+            HttpSession session = request.getSession();
+            session.setAttribute("user", user);
+            session.setAttribute("checkLogin", "success");
+            response.sendRedirect(request.getContextPath() + "/loginSuccess.jsp");
         }
     }
 

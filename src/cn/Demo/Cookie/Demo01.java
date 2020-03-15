@@ -14,6 +14,7 @@ public class Demo01 extends HttpServlet {
         // 创建Cookie
         Cookie cookie = new Cookie("msg", "Hello");
         cookie.setMaxAge(30);
+        cookie.setPath("/");
 
         response.addCookie(cookie);
     }
