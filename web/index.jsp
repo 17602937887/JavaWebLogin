@@ -63,7 +63,7 @@
           <input type="text" name="checkImgCode">
         </td>
         <td>
-          <img src="/login/checkCodeServlet" id="checkImgCode">
+          <img src= "${pageContext.request.contextPath}/checkCodeServlet" id="checkImgCode">
         </td>
       </tr>
       <tr>
