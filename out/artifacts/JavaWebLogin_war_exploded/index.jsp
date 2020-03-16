@@ -9,6 +9,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page errorPage="500.jsp" %>
 <html>
 <head>
     <title>登陆页面</title>
@@ -63,7 +64,7 @@
           <input type="text" name="checkImgCode">
         </td>
         <td>
-          <img src="/login/checkCodeServlet" id="checkImgCode">
+          <img src= "${pageContext.request.contextPath}/checkCodeServlet" id="checkImgCode">
         </td>
       </tr>
       <tr>
