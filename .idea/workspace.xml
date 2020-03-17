@@ -7,18 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/web/500.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/500.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaWebLogin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaWebLogin_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__4_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/domain/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test/show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test/test1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test/test2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Test/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/WEB-INF/classes/cn/Demo/Test/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/imgDownload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/imgDownload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/loginSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWebLogin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebLogin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/Demo/Servlet/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Servlet/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="jsf" />
         <option value="Class" />
+        <option value="Jspx File" />
+        <option value="jsf" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -53,25 +53,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.17875" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\El" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\lib" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\img" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\checkImgCode" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\Cookie" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\img" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -114,6 +118,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/login/JSTLtset.jsp" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -230,7 +235,8 @@
       <workItem from="1584237712312" duration="10704000" />
       <workItem from="1584270641555" duration="10827000" />
       <workItem from="1584323415147" duration="1837000" />
-      <workItem from="1584358135841" duration="9600000" />
+      <workItem from="1584358135841" duration="10624000" />
+      <workItem from="1584411104354" duration="11164000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -274,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584370544651</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="code">
+      <created>1584375485187</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584375485187</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
