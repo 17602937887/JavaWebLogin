@@ -7,17 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__4_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/Demo/domain/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test/test1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test/test2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/Demo/Filter/FilterDemo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWebLogin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebLogin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Demo/Servlet/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Servlet/Show.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +21,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jspx File" />
         <option value="jsf" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,7 +111,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/login/JSTLtset.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/login" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -237,6 +230,9 @@
       <workItem from="1584323415147" duration="1837000" />
       <workItem from="1584358135841" duration="10624000" />
       <workItem from="1584411104354" duration="11164000" />
+      <workItem from="1584444237493" duration="4050000" />
+      <workItem from="1584500117124" duration="4785000" />
+      <workItem from="1584540609669" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -287,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584375485187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="code">
+      <created>1584444360022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584444360023</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -35,7 +35,7 @@
     session.removeAttribute("checkPasswordError");
   }
 %>
-<form action="/login/login" method="post">
+<form action="http://ehallplatform.xust.edu.cn/default/jkdk/mobile/com.primeton.eos.jkdk.xkdjkdkbiz.jt.biz.ext" method="post">
     <table>
       <tr>
         <td>
@@ -95,5 +95,8 @@
       checkImgCode.setAttribute("src", "/login/checkCodeServlet?time=" + new Date().getTime());
     }
 </script>
+<%
+  System.out.println("index.jsp......");
+%>
 </body>
 </html>
