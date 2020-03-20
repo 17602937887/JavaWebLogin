@@ -2,35 +2,30 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JavaWebLogin:war exploded" />
+      <artifact name="login" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/web/html/01-html&amp;text&amp;val.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/01.隔行换色/01.隔行换色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/02-prop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/02.全选和全不选/全选和全不选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03-class&amp;css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/QQ表情选择.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/01.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/03.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/05.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/06.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/07.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/08.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/09.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/04-create&amp;append.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/04.多选下拉列表左右移动/左右移动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/05-remove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/01-jquery动画/01-显示隐藏动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/02-jquery遍历/01-遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/03-事件切换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/04-jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/04-jQuery综合案例/抽奖.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/05-jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/05-jQuery的插件/02-jQuery全局进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/adv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/man00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/man01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/man02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/man03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/man04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/man05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/img/man06.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/04-过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04-过滤选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/login/login.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login/login.war" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.49">
+  <component name="RunManager" selected="Tomcat Server.01-遍历.html">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.Demo.Test.Demo" />
       <module name="JavaWebLogin" />
@@ -132,6 +127,45 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01-遍历.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/html/02-jquery遍历/01-遍历.html" />
+      <deployment>
+        <artifact name="login">
+          <settings>
+            <option name="CONTEXT_PATH" value="/login" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="01-遍历_html_JavaWebLogin" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="login" />
+        </option>
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
@@ -213,9 +247,11 @@
       <item itemvalue="Application.JdbcUtilsTest" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
+      <item itemvalue="Tomcat Server.01-遍历.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.01-遍历.html" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.JdbcUtilsTest" />
       </list>
@@ -261,7 +297,7 @@
       <workItem from="1584584764989" duration="3789000" />
       <workItem from="1584602044719" duration="8254000" />
       <workItem from="1584674507518" duration="2516000" />
-      <workItem from="1584687167718" duration="14481000" />
+      <workItem from="1584687167718" duration="21164000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -333,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584674638260</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="code">
+      <created>1584702210739</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584702210739</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
