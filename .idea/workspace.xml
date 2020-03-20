@@ -7,19 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/web/html/01-基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/02-属性选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03-层级选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/04-过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/JQuery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/JQuery对象与js对象相互转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/自定义js框架.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/MyGet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/01-html&amp;text&amp;val.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/01.隔行换色/01.隔行换色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/02-prop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/02.全选和全不选/全选和全不选.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03-class&amp;css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/QQ表情选择.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/img/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/04-create&amp;append.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/04.多选下拉列表左右移动/左右移动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/html/05-remove.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Demo/Filter/FilterDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/Demo/Filter/FilterDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/04-过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04-过滤选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,17 +82,17 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\html" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\El" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\html" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\js" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\lib" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\img" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\checkImgCode" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\Cookie" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\html" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\El" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,6 +260,8 @@
       <workItem from="1584544036978" duration="114000" />
       <workItem from="1584584764989" duration="3789000" />
       <workItem from="1584602044719" duration="8254000" />
+      <workItem from="1584674507518" duration="2516000" />
+      <workItem from="1584687167718" duration="14481000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -313,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584544069881</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="code">
+      <created>1584674638260</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584674638260</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

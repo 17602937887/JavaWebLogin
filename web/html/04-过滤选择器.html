@@ -103,9 +103,21 @@
                  $("div:odd").css("backgroundColor", "red");
              });
              // <input type="button" value=" 改变索引值为大于 3 的 div 元素的背景色为 红色"  id="b6"/>
+             $("#b6").click(function () {
+	             $("div:gt(3)").css("backgroundColor", "red");
+             });
              // <input type="button" value=" 改变索引值为等于 3 的 div 元素的背景色为 红色"  id="b7"/>
+             $("#b7").click(function () {
+                 $("div:eq(3)").css("backgroundColor", "red");
+             });
              // <input type="button" value=" 改变索引值为小于 3 的 div 元素的背景色为 红色"  id="b8"/>
+             $("#b8").click(function () {
+                 $("div:lt(3)").css("backgroundColor", "red");
+             });
              // <input type="button" value=" 改变所有的标题元素的背景色为 红色"  id="b9"/>
+             $("#b9").click(function () {
+                 $(":header").css("backgroundColor", "red");
+             });
 		 </script>
 	
 	</body>
