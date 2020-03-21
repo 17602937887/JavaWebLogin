@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajaxDemo02</title>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script>
+        $(function () {
+            // 1. JQuery实现的AJAX
+            // $("#button").click(function () {
+            //     $.ajax({
+            //         url: "/login/ajaxDemo01",
+            //         type: "get",
+            //         data:{
+            //             user: $("#user").val(),
+            //             password: 'chh980929'
+            //         },
+            //         success: function (data) {
+            //             console.log(data);
+            //         }
+            //     });
+            // });
+
+            //2.直接post或者get
+            $("#button").click(function () {
+                $.get("/login/ajaxDemo01", {
+                    user: $("#user").val(),
+                    password: 'chh980929'
+                }, function (data) {
+                    console.log("新的: " + data);
+                });
+            });
+        });
+	</script>
+</head>
+<body>
+<lable>
+	<tr>
+		<td>用户名:</td>
+		<td><input type="text" name="user" id="user"></td>
+		<td><input type="button" id="button" value="发送ajax请求"></td>
+	</tr>
+</lable>
+</body>
+</html>

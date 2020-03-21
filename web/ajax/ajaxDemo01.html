@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajaxDemo01</title>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script>
+		function test() {
+            //1.创建对象
+            var xmlhttp;
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            //2.建立连接
+			xmlhttp.open("get", "/login/ajaxDemo01?user=" + $("#user").val(), false);
+            
+            //3.发送请求
+			xmlhttp.send();
+   
+			//4.获取数据
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    var val = xmlhttp.responseText;
+                    alert(val);
+                }
+            }
+		}
+	</script>
+</head>
+<body>
+<input type="text" id="user">
+<input type="button" value="发送ajax请求" onclick="test()">
+</body>
+</html>

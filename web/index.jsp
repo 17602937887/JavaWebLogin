@@ -35,7 +35,7 @@
     session.removeAttribute("checkPasswordError");
   }
 %>
-<form action="${pageContext.request.contextPath/login}" method="post">
+<form action="${pageContext.request.contextPath}/login" method="post">
     <table>
       <tr>
         <td>
