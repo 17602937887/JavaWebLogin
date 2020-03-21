@@ -7,25 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/web/html/01-jquery动画/01-显示隐藏动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/02-jquery遍历/01-遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/03-事件切换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/04-jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/04-jQuery综合案例/抽奖.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/05-jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/05-jQuery的插件/02-jQuery全局进行方法扩展.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/adv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/man00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/man01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/man02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/man03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/man04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/man05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/html/img/man06.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/login/login.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/login/login.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/01-基本选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/01-基本选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/02-属性选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/02-属性选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/03-层级选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/03-层级选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/04-过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04-过滤选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -297,7 +285,8 @@
       <workItem from="1584584764989" duration="3789000" />
       <workItem from="1584602044719" duration="8254000" />
       <workItem from="1584674507518" duration="2516000" />
-      <workItem from="1584687167718" duration="21164000" />
+      <workItem from="1584687167718" duration="21319000" />
+      <workItem from="1584754022053" duration="2906000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -376,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584702210739</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="code">
+      <created>1584714229458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584714229458</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

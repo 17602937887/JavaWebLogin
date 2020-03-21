@@ -35,7 +35,7 @@
     session.removeAttribute("checkPasswordError");
   }
 %>
-<form action="http://ehallplatform.xust.edu.cn/default/jkdk/mobile/com.primeton.eos.jkdk.xkdjkdkbiz.jt.biz.ext" method="post">
+<form action="${pageContext.request.contextPath/login}" method="post">
     <table>
       <tr>
         <td>
