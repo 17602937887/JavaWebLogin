@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>jquery案例之抽奖</title>
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 
@@ -24,7 +24,7 @@
         type="button"
         value="点击开始"
         style="width:150px;height:150px;font-size:22px"
-        onclick="imgStart()">
+>
 
 <!-- 停止按钮 -->
 <input
@@ -32,7 +32,7 @@
         type="button"
         value="点击停止"
         style="width:150px;height:150px;font-size:22px"
-        onclick="imgStop()">
+>
 
 
 <script language='javascript' type='text/javascript'>
@@ -46,7 +46,23 @@
         "../img/man05.jpg",
         "../img/man06.jpg"
     ];
-
+    $("#startID").attr("disabled", false);
+    $("#stopID").attr("disabled", true);
+    var imgId;
+    $("#startID").click(function () {
+        imgId = setInterval(function () {
+            $("#img1ID").prop("src", imgs[Math.floor(Math.random() * 7)]);
+        }, 200);
+        $("#startID").attr("disabled", true);
+        $("#stopID").attr("disabled", false);
+    });
+    $("#stopID").click(function () {
+        clearInterval(imgId);
+        $("#startID").attr("disabled", false);
+        $("#stopID").attr("disabled", true);
+        $("#img2ID").prop("src", $("#img1ID").prop("src")).hide().show("slow");
+    });
+    
 </script>
 </body>
 </html>

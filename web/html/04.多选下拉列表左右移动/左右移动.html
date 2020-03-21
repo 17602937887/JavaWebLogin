@@ -28,16 +28,13 @@
 
 			//需求：实现下拉列表选择条目左右选择功能
 			$(function () {
-				//toRight
 				$("#toRight").click(function () {
-					$("#rightName").append($("#leftName option:checked"));
-				});
-				
-				$("#toLeft").click(function () {
-					$("#leftName").append($("#rightName option:checked"));
+					$("#rightName").append($("#leftName > option:checked"));
+                });
+                $("#toLeft").click(function () {
+                    $("#leftName").append($("#rightName > option:checked"));
                 });
             });
-
 		</script>
 
 

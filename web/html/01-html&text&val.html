@@ -6,24 +6,20 @@
 		<script  src="../js/jquery-3.3.1.min.js"></script>
 		<script>
 			// 获取myinput 的value值
-			
+			$(function () {
+				var value = $("#myinput").val("李四!!");
+			});
 			// 获取mydiv的标签体内容
-			
+			$(function () {
+				var values = $("#mydiv").html("我挺好!!!");
+            });
 			// 获取mydiv文本内容
-		
+            $(function () {
+            });
 		</script>
-		
 	</head>
 	<body>
 		<input id="myinput" type="text" name="username" value="张三" /><br />
 		<div id="mydiv"><p><a href="#">标题标签</a></p><p>卧槽哟</div>
-		
-		
-		<script>
-			var html = $("#mydiv").html();
-			alert(html);
-			var text = $("#mydiv").text();
-			alert(text);
-		</script>
 	</body>
 </html>

@@ -15,17 +15,17 @@
 </div>
 <script>
     function hideFn() {
-        $("#showDiv").fadeOut("normal")
+        $("#showDiv").hide();
+        $("#showDiv").slideUp();
     }
     
     function showFn() {
-        $("#showDiv").fadeIn("normal")
+        $("#showDiv").slideDown();
     }
     
     function toggleFn() {
-        $("#showDiv").fadeToggle("normal");
+        $("#showDiv").slideToggle();
     }
-    
 </script>
 </body>
 </html>

@@ -7,13 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49480ac8-c150-4191-8d27-a837f87039f1" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-migrate-1.0.0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JavaWebLogin_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/01-基本选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/01-基本选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/02-属性选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/02-属性选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/03-层级选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/03-层级选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/04-过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04-过滤选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/05-表单过滤选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/01-html&amp;text&amp;val.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/01-html&amp;text&amp;val.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/01-jquery动画/01-显示隐藏动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/01-jquery动画/01-显示隐藏动画.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/01.隔行换色/01.隔行换色.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/01.隔行换色/01.隔行换色.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/02-jquery遍历/01-遍历.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/02-jquery遍历/01-遍历.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/02-prop.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/02-prop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/02.全选和全不选/全选和全不选.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/02.全选和全不选/全选和全不选.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/03-class&amp;css.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/03-class&amp;css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/01-绑定事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/02-on绑定事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/03-jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/03.QQ表情选择/QQ表情选择.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/03.QQ表情选择/QQ表情选择.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/04-create&amp;append.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04-create&amp;append.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/04-jQuery综合案例/广告的自动显示与隐藏.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04-jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/04-jQuery综合案例/抽奖.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04-jQuery综合案例/抽奖.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/04.多选下拉列表左右移动/左右移动.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/04.多选下拉列表左右移动/左右移动.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/05-jQuery的插件/01-jQuery对象进行方法扩展.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/05-jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,17 +75,17 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\html" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\js" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\lib" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\img" />
-      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\checkImgCode" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\html" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web" />
       <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\El" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\js" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\html" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\WEB-INF\lib" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\web\img" />
+      <recent name="C:\Users\Hang_ccccc\IdeaProjects\JavaWebLogin\src\cn\Demo\checkImgCode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,7 +296,7 @@
       <workItem from="1584602044719" duration="8254000" />
       <workItem from="1584674507518" duration="2516000" />
       <workItem from="1584687167718" duration="21319000" />
-      <workItem from="1584754022053" duration="2906000" />
+      <workItem from="1584754022053" duration="16580000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1584109233442</created>
@@ -372,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584714229458</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="code">
+      <created>1584756962784</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584756962784</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

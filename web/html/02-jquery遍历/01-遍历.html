@@ -6,10 +6,8 @@
     <script src="../../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
         $(function () {
-            //1.js方式获取
-            var citys = $("#city > li");
-            for(var i = 0; i < citys.length; i++){
-                alert(citys.innerHTML);
+            for(li of $("#city > li")){
+                alert(li.innerHTML);
             }
         });
     </script>

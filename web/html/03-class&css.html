@@ -62,43 +62,40 @@
 	
 		 //<input type="button" value="采用属性增加样式(改变id=one的样式)"  id="b1"/>
 		 $(function () {
-             $("#b1").click(function () {
-                 $("#one").prop("class", "second");
-             })
-         });
+			 $("#b1").click(function () {
+				 $("#one").prop("class", "second");
+             });
+         })
 		 //<input type="button" value=" addClass"  id="b2"/>
-         $(function () {
-             $("#b2").click(function () {
-                 $("#one").addClass("second");
-             })
+		 $(function () {
+			$("#b2").click(function () {
+				$("#one").addClass("second");
+            });
          });
 		 //<input type="button" value="removeClass"  id="b3"/>
          $(function () {
              $("#b3").click(function () {
                  $("#one").removeClass();
-             })
+             });
          });
 		 //<input type="button" value=" 切换样式"  id="b4"/>
 		 $(function () {
-			 $("#b4").click(function () {
-			     $("#one").toggleClass("second");
-             })
+			$("#b4").click(function () {
+				$("#one").toggleClass("second");
+            });
          });
 		 //<input type="button" value=" 通过css()获得id为one背景颜色"  id="b5"/>
- 		 $(function () {
- 		     $("#b5").click(function () {
-		        alert($("#one").css("backgroundColor"));
-             })
-         })
-		 //<input type="button" value=" 通过css()设置id为one背景颜色为绿色"  id="b6"/>
-		$(function () {
-			$("#b6").click(function () {
-			    
+		 $(function () {
+			$("#b5").click(function () {
+				alert($("#one").css("backgroundColor"));
             });
-        })
-		 
-		 
-	
+         });
+		 //<input type="button" value=" 通过css()设置id为one背景颜色为绿色"  id="b6"/>
+         $(function () {
+             $("#b6").click(function () {
+                 alert($("#one").css("backgroundColor", "green"));
+             });
+         });
 	</script>
    
 	</head>
