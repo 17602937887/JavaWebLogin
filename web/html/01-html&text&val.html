@@ -14,12 +14,20 @@
 				var values = $("#mydiv").html("我挺好!!!");
             });
 			// 获取mydiv文本内容
-            $(function () {
+			
+			$(function () {
+				// 离开输入框 则判断账号是否存在
+			    $("#user").mousedown(function () {
+                    $("#user").mouseout(function () {
+                        console.log($("#user").val());
+                    })
+			    });
             });
 		</script>
 	</head>
 	<body>
 		<input id="myinput" type="text" name="username" value="张三" /><br />
 		<div id="mydiv"><p><a href="#">标题标签</a></p><p>卧槽哟</div>
+		<input type="text" name="user" placeholder="请输入用户名" id="user">
 	</body>
 </html>
