@@ -29,7 +29,7 @@
         <td>用户注册时间</td>
         <td>用户最后登录时间</td>
     </tr>
-    <c:forEach items="${sessionScope.get('allUser')}" var="user" varStatus="s">
+    <c:forEach items="${requestScope.get('allUser')}" var="user" varStatus="s">
         <tr>
             <td>${user.id}</td>
             <td>${user.user}</td>
